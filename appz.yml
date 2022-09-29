@@ -26,7 +26,7 @@ volumes:
 properties:
     ADMIN_PASSWORD:     
        vault: ADMIN_PASSWORD
-    PROM_URL: http://prometheus-2-17:9090/
+    PROM_URL: http://prometheus-2-17.noora-cc-dev.svc.cluster.local:9090/
     GF_AUTH_GENERIC_OAUTH_ENABLED: true
     GF_AUTH_GENERIC_OAUTH_NAME: AppZ 
     GF_AUTH_GENERIC_OAUTH_CLIENT_ID: grafana
