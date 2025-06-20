@@ -39,4 +39,4 @@ properties:
     GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: anyname
     GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
     GF_SERVER_ROOT_URL: https://qa-dev-grafana-10-4.lowtouchcloud.io
-    revision: 3
+    revision: 4
